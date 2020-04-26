@@ -1,0 +1,240 @@
+@import "_reset";
+@import "_boxsz";
+@import "_clear";
+
+.wraper
+	max-width: 1024px
+	margin: 0 auto
+
+.social_bar
+	background: #f6f6f6
+	width: 100%
+	justify-content: flex-end
+	padding-top: 15px
+	padding-bottom: 15px
+	a
+	 text-decoration: none
+	 padding-right: 7.5px
+	 display: flex	 
+	 img
+	  margin-right: 5px	  
+
+.dflex
+	display: flex
+
+.fb
+	span
+	 color: #4460a0
+	 font-family: Microsoft JhengHei
+	 border-right: 2px solid #cccccc
+	 padding-right: 7.5px
+	 transition: color 0.3s
+	 &:hover
+	  color: #e80
+
+.tw
+	span
+	 color: #00aaec
+	 font-family: Microsoft JhengHei
+	 transition: color 0.3s
+	 &:hover
+	  color: #e80
+
+.menu_bar
+	justify-content: space-between
+
+.logo
+	background-image:url(../img/logo_gre.png)
+	background-repeat: no-repeat
+	text-indent: 101%
+	white-space: nowrap
+	overflow: hidden
+	width: 173px
+
+.menu
+	li
+	 /*margin-top: 20px*/
+	 width: 100px
+	 text-align: center
+	 a
+	  display: block
+	  text-decoration: none
+	  font-weight: bold
+	  padding-top: 15px
+	  padding-bottom: 15px
+	  font-family: Microsoft JhengHei
+	  color: #00cc99
+	  background: transparent
+	  transition: background 1s
+	  transition: color 1s
+	  transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275)
+	  &:hover
+	   background: #00cc99
+	   color: #fff
+
+.sloganbar
+	height: 346px
+	background-repeat: no-repeat
+	background-size: cover
+	background-image:url(../img/bg-2.png)
+	align-items: center
+	h2
+	 font-family: Microsoft JhengHei
+	 font-size: 36px
+	 color: #fff
+	 font-weight: bold
+	 padding-top: 35px
+	 padding-left: 20px
+	 background: rgba(0%,0%,0%,0.1)
+	 width: 100%
+	 height: 140px
+
+.infocard
+	justify-content: center	
+
+.html
+	background-image:url(../img/html5.png)
+	background-repeat: no-repeat
+	text-indent: 101%
+	white-space: nowrap
+	overflow: hidden
+	height: 170px
+
+.rwd
+	background-image:url(../img/rwd.png)
+	background-repeat: no-repeat
+	text-indent: 101%
+	white-space: nowrap
+	overflow: hidden
+	height: 170px
+
+.jq
+	background-image:url(../img/jq.png)
+	background-repeat: no-repeat
+	text-indent: 101%
+	white-space: nowrap
+	overflow: hidden
+	height: 170px
+
+.course-item		
+	font-family: Microsoft JhengHei
+	width: 300px
+	border-radius: 0 0 4% 4%
+	box-shadow: 0px 5px 5px #ccc8c8
+	margin: 60px 15px 0px 15px
+	flex-direction: column
+	align-items: center
+	h3
+	 text-align: center
+	 font-size: 18px
+	 font-weight: bold
+	 padding-bottom: 10px
+	p
+	 padding: 15px 15px 39px 15px
+	 line-height: 1.5
+	 font-family: Microsoft JhengHei
+	ul
+	 padding: 15px 15px 39px 15px
+	 li
+	  margin-top: 15px
+	  margin-bottom: 15px
+
+.jquery
+	p
+	 padding-bottom: 0
+
+.vstable
+	margin-top: 55px
+	font-family: Microsoft JhengHei
+	flex-direction: column
+	align-items: center
+	h4
+	 font-weight: bold
+	 font-size: 24px
+	 text-align: center
+	table
+     font-size: 15px
+     margin-top: 25px
+     color: #333333
+	th
+     font-weight: bold
+     font-size: 16px
+     color: #000
+     background: #f7f7f7
+	th, td
+	 padding: 12px
+	 padding-right: 97px
+	 border-bottom: solid 1px #dddddd
+	 border-top: solid 1px #dddddd
+
+.best
+	color: #00cc99
+
+.acceptform
+	flex-direction: column
+	align-items: center
+	margin-top: 80px
+	background: linear-gradient(#00644b,#009871)
+	width: 100%
+	p
+	 padding-top: 35px
+	 padding-bottom: 25px
+	 font-size: 24px
+	 font-family: Microsoft JhengHei
+	 color: #fff
+	 font-weight: bold
+	 text-align: center
+	form
+	 width: 100%
+	 justify-content: space-between
+	textarea
+	 margin-left: 20px
+	 margin-bottom: 30px
+	 resize: none
+	 padding: 10px
+
+.form_r
+	flex-direction: column
+	width: 45%
+	margin-right: 30px
+	input[type=submit]
+	 text-align: center
+	 font-size: 18px
+	 font-family: Microsoft JhengHei
+	 color: #fff
+	 font-weight: bold
+	 width: 90px
+	 height: 45px
+	 border-radius: 5px
+	 background: #00cc99
+	 align-self: flex-end
+
+.form_text
+	flex-direction: column
+	margin-bottom: 10px
+	label
+	 margin-top: 10px
+	 margin-bottom: 3px
+	 text-align: left
+	 font-size: 18px
+	 font-family: Microsoft JhengHei
+	 color: #fff
+	 font-weight: bold
+	input
+	 height: 30px
+	 border-radius: 5px
+	 padding: 10px
+
+.footer
+    justify-content: space-between
+    align-items: center
+    font-family: Microsoft JhengHei
+    font-size: 15px
+    font-weight: bold
+    ul
+     margin-top: 5px
+     li
+      margin-top: 5px
+      margin-bottom: 5px
+      span
+       color: #e12d80
